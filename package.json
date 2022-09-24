@@ -1,0 +1,14 @@
+{
+  "name": "tg-bot-send-message",
+  "version": "1.0.0",
+  "description": "This package can help you for working with telegram bots. ",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "tg-bot"
+  ],
+  "author": "Hakimov-dev",
+  "license": "ISC"
+}
