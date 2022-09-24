@@ -1,4 +1,4 @@
-import axios from 'axios'
+const axios = require('axios')
 const env = require('dotenv').config({path: '../.env'});
 
 export const api = axios.create({
