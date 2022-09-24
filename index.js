@@ -5,7 +5,7 @@ var bot_token = null
 var message_title = ''
 
 function checkMessage(TOKEN, CHAT, message){
-    if(TOKEN !== undefined && TOKEN.length > 0 && CHAT !== undefined && CHAT.length > 0 && message !== undefined && message.length > 0){
+    if(TOKEN !== undefined && TOKEN.length > 0 && CHAT !== undefined && CHAT.length > 0 && message !== undefined && Object.keys(message).length > 0){
         message_title = message.title || ''
         chat_id = CHAT
         bot_token = TOKEN
