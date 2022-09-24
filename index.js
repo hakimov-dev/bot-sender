@@ -10,6 +10,7 @@ function checkMessage(TOKEN, CHAT, message){
         chat_id = CHAT
         bot_token = TOKEN
         delete message.title 
+        createMsg(message)
     }else{
         console.error('Added function params!')
     }
