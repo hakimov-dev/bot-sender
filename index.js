@@ -1,9 +1,9 @@
-const api = require('./api')
+const api = require('axios')
 
 async function senMessage(TOKEN, CHAT, message){
   try{
     if(TOKEN !== undefined && TOKEN.length && CHAT !== undefined && CHAT.length && message !== undefined && message.length > 0){
-        api.get(`${TOKEN}/sendMessage?chat_id=${CHAT}text=${message}`)
+        api.get(`bot/${TOKEN}/sendMessage?chat_id=${CHAT}$text=${message}/`)
         .then(res => {
             console.log('Message successfully send.')
         })
