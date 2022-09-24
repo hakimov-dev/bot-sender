@@ -24,7 +24,6 @@ function createMsg(obj){
       texts += text
     }
     message += texts
-    console.log(texts)
 }
 
 async function sendMessage(TOKEN, CHAT, message){
