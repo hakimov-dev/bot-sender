@@ -16,8 +16,8 @@ function checkMessage(TOKEN, CHAT, message){
     }
 };
 
-function createMsg(){
-
+function createMsg(obj){
+     
 }
 
 async function sendMessage(TOKEN, CHAT, message){
