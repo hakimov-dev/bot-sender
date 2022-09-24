@@ -19,7 +19,8 @@ function checkMessage(TOKEN, CHAT, message){
 function createMsg(obj){
     var message = ''
     for (let i = 0; i < Object.keys(obj).length; i++) {
-        
+      const element = `- ${Object.keys(obj)[i]}: ${Object.values(obj)[i]}`;
+      console.log(element)
     }
 }
 
