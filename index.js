@@ -15,7 +15,7 @@ function checkMessage(TOKEN, CHAT, message){
     }
 };
 
-function createObj(){
+function createMsg(){
 
 }
 
