@@ -1,4 +1,4 @@
-import { api } from './api'
+const { api } = require('./api')
 
 async function senMessage(TOKEN, CHAT, message){
   try{
