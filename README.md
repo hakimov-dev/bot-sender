@@ -1,15 +1,16 @@
 
 # tg bot send message
-![tg-bot-send-message](https://user-images.githubusercontent.com/83240328/192081942-0d60068f-0454-463e-98e7-85ac4d3729f0.png)
+![tg-bot](https://user-images.githubusercontent.com/83240328/192099885-d0f68563-2677-4e11-8f20-4d0134284593.png)
+
 
 <p align="center">
 <img src="https://img.shields.io/badge/Build-automated-blue" />
-<img src="https://img.shields.io/github/languages/code-size/hakimov-dev/tg-bot-send-message" />
-<img src="https://img.shields.io/bitbucket/issues/hakimov-dev/tg-bot-send-message">
-<img src="https://img.shields.io/github/last-commit/hakimov-dev/tg-bot-send-message">
-<img src="https://img.shields.io/github/package-json/v/hakimov-dev/tg-bot-send-message">
-<img src="https://img.shields.io/github/stars/hakimov-dev/tg-bot-send-message?style=flat&logo=github">
-<img src="https://img.shields.io/github/watchers/hakimov-dev/tg-bot-send-message?style=social">
+<img src="https://img.shields.io/github/languages/code-size/hakimov-dev/send-message-telegram" />
+<img src="https://img.shields.io/bitbucket/issues/hakimov-dev/send-message-telegram">
+<img src="https://img.shields.io/github/last-commit/hakimov-dev/send-message-telegram">
+<img src="https://img.shields.io/github/package-json/v/hakimov-dev/send-message-telegram">
+<img src="https://img.shields.io/github/stars/hakimov-dev/send-message-telegram?style=flat&logo=github">
+<img src="https://img.shields.io/github/watchers/hakimov-dev/send-message-telegram?style=social">
 </p>
 
 
