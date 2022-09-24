@@ -1,5 +1,5 @@
 {
-  "name": "tg-bot-send-message",
+  "name": "telegram-send-message",
   "version": "1.0.0",
   "description": "This package can help you for working with telegram bots. ",
   "main": "index.js",
