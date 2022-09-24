@@ -2,6 +2,7 @@ const api = require('./api')
 
 var chat_id = null
 var bot_token = null
+var message_title = ''
 
 function checkMessage(TOKEN, CHAT, message){
     if(TOKEN !== undefined && TOKEN.length && CHAT !== undefined && CHAT.length && message !== undefined && message.length > 0){
