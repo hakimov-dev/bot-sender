@@ -9,7 +9,11 @@ function checkMessage(TOKEN, CHAT, message){
 };
 
 async function sendMessage(TOKEN, CHAT, message){
+    try{
 
+    } catch(error){
+      console.log(error)
+    }  
 }
 
 module.exports = checkMessage
