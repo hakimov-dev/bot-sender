@@ -1,5 +1,5 @@
-function senMessage(TOKEN, CHAT, message){
-  console.log('hi')
+async function senMessage(TOKEN, CHAT, message){
+  
 }
 
 module.exports = senMessage
