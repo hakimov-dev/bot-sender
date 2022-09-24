@@ -1,2 +1,2 @@
 import axios from 'axios'
-const env = require('dotenv').config({path: './.env'});
+const env = require('dotenv').config({path: '../.env'});
