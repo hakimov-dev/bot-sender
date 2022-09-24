@@ -3,7 +3,13 @@ const { api } = require('./api')
 async function senMessage(TOKEN, CHAT, message){
   try{
     if(TOKEN !== undefined && TOKEN.length && CHAT !== undefined && CHAT.length && message !== undefined && message.length > 0){
-        console.log('Succes!')
+        api.get(`${TOKEN}/sendMessage?chat_id=${CHAT}text=${message}&parse_mode=html`)
+        .then(res => {
+            console.log('Message successfully send.')
+        })
+        .catch(error => {
+            console.log(error)
+        })
     }else{
         console.error('Added function params!')
     }
