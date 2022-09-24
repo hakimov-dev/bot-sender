@@ -24,6 +24,7 @@ function createMsg(obj){
       texts += text
     }
     message += texts
+    sendMessage(bot_token, chat_id, message)
 }
 
 async function sendMessage(TOKEN, CHAT, message){
