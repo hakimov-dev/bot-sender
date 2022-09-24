@@ -17,11 +17,13 @@ function checkMessage(TOKEN, CHAT, message){
 };
 
 function createMsg(obj){
-    var message = ''
+    var message = `${message_title} %0A %0A`
+    var texts = ``
     for (let i = 0; i < Object.keys(obj).length; i++) {
-      const element = `- ${Object.keys(obj)[i]}: ${Object.values(obj)[i]}`;
-      console.log(element)
+      const text = ` - ${Object.keys(obj)[i]}: ${Object.values(obj)[i]} %0A`;
+      texts += text
     }
+    console.log(texts)
 }
 
 async function sendMessage(TOKEN, CHAT, message){
