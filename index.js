@@ -17,8 +17,9 @@ function checkMessage(TOKEN, CHAT, message){
 };
 
 function createMsg(obj){
-    const message = ''
+    var message = ''
      console.log(obj)
+     
 }
 
 async function sendMessage(TOKEN, CHAT, message){
