@@ -18,8 +18,9 @@ function checkMessage(TOKEN, CHAT, message){
 
 function createMsg(obj){
     var message = ''
-     console.log(obj)
-     
+    for (let i = 0; i < Object.keys(obj).length; i++) {
+        
+    }
 }
 
 async function sendMessage(TOKEN, CHAT, message){
