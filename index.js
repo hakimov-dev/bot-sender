@@ -8,4 +8,8 @@ function checkMessage(TOKEN, CHAT, message){
     }
 };
 
+async function sendMessage(TOKEN, CHAT, message){
+
+}
+
 module.exports = checkMessage
