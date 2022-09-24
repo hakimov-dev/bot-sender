@@ -10,7 +10,13 @@ function checkMessage(TOKEN, CHAT, message){
 
 async function sendMessage(TOKEN, CHAT, message){
     try{
-
+      api.get(`bot${TOKEN}/sendMessage?chat_id=${CHAT}}&text=${message}`)
+      .then(res => {
+          console.log('Message successfully send.')
+      })
+      .catch(error => {
+          console.log(error)
+      })
     } catch(error){
       console.log(error)
     }  
