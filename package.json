@@ -1,5 +1,5 @@
 {
-  "name": "telegram-send-message",
+  "name": "bot-sender",
   "version": "1.0.0",
   "description": "This package can help you for working with telegram bots. ",
   "main": "index.js",
@@ -7,12 +7,19 @@
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "keywords": [
-    "tg-bot"
+    "tg-bot",
+    "javascript",
+    "telegram-api",
+    "rest-api"
   ],
   "author": "Hakimov-dev",
   "license": "ISC",
   "dependencies": {
     "axios": "^0.27.2",
     "dotenv": "^16.0.2"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/hakimov-dev/bot-sender.git"
   }
 }

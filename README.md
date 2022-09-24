@@ -1,6 +1,6 @@
 
 # tg bot send message
-![tg-bot-send-message](https://user-images.githubusercontent.com/83240328/192081942-0d60068f-0454-463e-98e7-85ac4d3729f0.png)
+![tg-bot-send-message](https://user-images.githubusercontent.com/83240328/192099885-d0f68563-2677-4e11-8f20-4d0134284593.png)
 
 <p align="center">
 <img src="https://img.shields.io/badge/Build-automated-blue" />
@@ -19,17 +19,17 @@ This package helps you to use telegram bots with vanilla js or js framework. For
 
 ## Download 💻
 ```bash
-  $ npm install tg-bot-send-message
+  $ npm i bot-sender
   ...
-  $ npm install --save tg-bot-send-message
+  $ npm i bot-sender --save
 ```
     
 ## Usage/Examples 🛠
 
 ```javascript
- import tgBot from 'tg-bot-send-message'
+ import tgBot from 'bot-sender'
  //  Or
- const tgBot = require('tg-bot-send-message')
+ const tgBot = require('bot-sender')
 
  const message = {
    title: 'Hello world',
