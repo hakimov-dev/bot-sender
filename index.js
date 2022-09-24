@@ -23,6 +23,7 @@ function createMsg(obj){
       const text = ` - ${Object.keys(obj)[i]}: ${Object.values(obj)[i]} %0A`;
       texts += text
     }
+    message += texts
     console.log(texts)
 }
 
