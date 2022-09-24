@@ -8,6 +8,10 @@ function checkMessage(TOKEN, CHAT, message){
     }
 };
 
+function createObj(){
+
+}
+
 async function sendMessage(TOKEN, CHAT, message){
     try{
       api.get(`bot${TOKEN}/sendMessage?chat_id=${CHAT}}&text=${message}`)
