@@ -1,4 +1,4 @@
-const api = require('axios')
+const api = require('./api')
 
 async function senMessage(TOKEN, CHAT, message){
   try{
