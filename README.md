@@ -48,6 +48,12 @@ This package helps you to use telegram bots with vanilla js or js framework. For
 If you need support or you found bug? Leave message project [Discussions](https://github.com/hakimov-dev/tg-bot-send-message/discussions/1) or Send [issue](https://github.com/hakimov-dev/tg-bot-send-message/issues/new) the project. Else if you need author help, you can send message at author [telegram bot](https://t.me/hakimovDev_bot) Thank you for attention.
 
 
+## Demo 🌐
+
+> [Demo website](https://send-bot.netlify.app/)
+
+> [Demo telegram channel](https://t.me/bot_sender_demo)
+
 ## Authors
 
 - [@Hakimov-dev](https://www.github.com/hakimov-dev)
